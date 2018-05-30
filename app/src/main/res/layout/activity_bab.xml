@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".Bab">
+
+    <ImageView
+        android:id="@+id/judulbab"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/holo_blue_bright" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulbab"></android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/teksberjalan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/background_light"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:text="Kata bijak berjalan alias teks berjalan                ketika ia pergi dari kehidupan, kamu baru sadar ia yg selama ini ada untukmu."
+        android:textStyle="bold" />
+
+</RelativeLayout>

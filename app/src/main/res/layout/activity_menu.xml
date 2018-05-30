@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bpasplash"
+    tools:context=".Menu">
+
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:text="Keluar" />
+
+    <Button
+        android:id="@+id/tentang"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/keluar"
+        android:layout_centerHorizontal="true"
+        android:text="Tentang" />
+
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tentang"
+        android:layout_centerHorizontal="true"
+        android:text="Menu" />
+
+</RelativeLayout>

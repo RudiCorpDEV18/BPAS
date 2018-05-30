@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tentang">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="187dp"
+        android:layout_height="167dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        app:srcCompat="?android:attr/textSelectHandle" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:text="Nama Aplikasi"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="220dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="11dp"
+                android:paddingRight="11dp"
+                android:paddingTop="11dp"
+                android:text="abcsdnsakb a bai safaf a auif aui au aui faui fai fauif bauw uafuwaf wa buaaui ua ua ua ua ua diaw uiqab aui fau a fak fuai fia fia fgd j9gdj g0dj0 d09g dj 0djg09dj g00djg09dj g0 djr09j0gjdr0gd09d er 0ej4 0e9ujww0  90 jw0jt0wjt0wjt0wj wq0 t0wut09uw 0tjw0j0 w0 twt 9jw 09tjw094htg 9f8 hgw g9s g9s8 hgs s s89hge98hg9 8hs 9ghs9h g9e8h938ht7h3s897th873023j0 is sh e9 hs9h gesh3 n98 ngsng9sne098ng wa fa mfa 9wh9jg 9 ha qey0ht0djg09dj g0 djr09j0gjdr0gd09d er 0ej4 0e9ujww0  90 jw0jt0wjt0wjt0wj wq0 t0wut09uw 0tjw0j0 w0 twt 9jw 09tjw094htg 9f8 hgw g9s g9s8 hgs s s89hge98hg9 8hs 9ghs9h g9e8h938ht7h3s897th873023j0 is sh e9 hs9h gesh3 n98 ngsng9sne098ng wa fa mfa 9wh9jg 9 ha qey0htn9na g9hg s9gh 9eah g9eb a jo iangoiagfjno nznvui dbgishbgiha eiba ibgiawbigu wbigninziungzig s iw iw aig0djg09dj g0 djr09j0gjdr0gd09d er 0ej4 0e9ujww0  90 jw0jt0wjt0wjt0wj wq0 t0wut09uw 0tjw0j0 w0 twt 9jw 09tjw094htg 9f8 hgw g9s g9s8 hgs s s89hge98hg9 8hs 9ghs9h g9e8h938ht7h3s897th873023j0 is sh e9 hs9h gesh3 n98 ngsng9sne098ng wa fa mfa 9wh9jg 9 ha qey0htn9na g9hg s9gh 9eah g9eb a jo iangoiagfjno nznvui dbgishbgiha eiba ibgiawbigu wbigninziungzig s iw iw aign9na g9hg s9gh 9eah g9eb a jo iangoiagfjno nznvui dbgishbgiha eiba ibgiawbigu wbigninziungzig s iw iw aig djr09j0gjdr0gd09d er 0ej4 0e9ujww0  90 jw0jt0wjt0wjt0wj wq0 t0wut09uw 0tjw0j0 w0 twt 9jw 09tjw094htg 9f8 hgw g9s g9s8 hgs s s89hge98hg9 8hs 9ghs9h g9e8h938ht7h3s897th873023j0 is sh e9 hs9h gesh3 n98 ngsng9sne098ng wa fa mfa 9wh9jg 9 ha qey0htn9na g9hg s9gh 9eah g9eb a jo iangoiagfjno nznvui dbgishbgiha eiba ibgiawbigu wbigninziungzig s iw iw aigu abiu gbaiu awiua i awi aibwbgiwmxdim gs kasg hnxin giuab gnwoihx h fwehf ahofehoafes948ntw0sktlxmld manifbiabnf iafh ha 9hf9e fxn9abn9fb9wanfiunieb  a9w 9a 9awf9a ba9f 9awn9f awaiu fia fia fia fia fia wfauh fxauyvwr q uaiu abfaef uzb eu e8aq eaf"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

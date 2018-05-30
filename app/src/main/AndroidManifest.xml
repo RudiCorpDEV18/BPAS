@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.rudicorpdev.bpas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/bpas"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/bpas"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Menu" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Bab" />
+        <activity android:name=".SubBab" />
+        <activity android:name=".Tentang" />
+        <activity android:name=".Bpas" />
+        <activity android:name=".SubBab1" />
+        <activity android:name=".SubBab2" />
+        <activity android:name=".SubBab3"></activity>
+    </application>
+
+</manifest>
